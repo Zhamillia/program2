@@ -1,0 +1,92 @@
+.shop {
+  padding: 88px 0 88px;
+}
+
+.shop__top {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
+.shop__img {
+  width: 100%;
+}
+
+.shop__img:hover {
+  transform: translateY(10px);
+  transition: 1s;
+}
+
+.shop__title {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(0, 0, 0, 0.58);
+  margin-bottom: 48px;
+}
+
+.shop__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.43);
+}
+
+.shop__row {
+  display: flex;
+  column-gap: 33px;
+  margin-right: 16px;
+}
+
+.shop__card {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  transition-duration: 0.4s;
+  transition-property: box-shadow, filter, transform;
+  transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+  transform-origin: 50% 50%;
+  transform-style: preserve-3d;
+}
+
+.shop__card:hover {
+  filter: brightness(1.1) contrast(0.95) saturate(1);
+  transform: rotateX(3deg) translateZ(15px);
+}
+
+.shop__card-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin: 25px 0 4px;
+}
+
+.shop__card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.shop__card-price {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin: 4px 0 12px;
+}
+
+.shop__card-btn {
+  background: #69725d;
+  border-radius: 10px;
+  width: 170px;
+  height: 56px;
+  cursor: pointer;
+  border: none;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-bottom: 210px;
+}

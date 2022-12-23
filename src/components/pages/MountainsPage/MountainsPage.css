@@ -1,0 +1,182 @@
+.mount {
+  padding: 0 0 215px;
+}
+
+.mount__content {
+  display: flex;
+}
+
+.mount__left {
+  background: url("../MountainsPage/media/canyon1.png") no-repeat;
+  height: 684px;
+  width: 100%;
+}
+
+.mount__content-left {
+  background: url("../MountainsPage/media/karakol1.png") no-repeat;
+  height: 684px;
+  width: 100%;
+}
+
+.mount__title {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(0, 0, 0, 0.58);
+  margin: 90px 71px 133px;
+}
+
+.mount__btn {
+  width: 224px;
+  height: 56px;
+  background: #69725d;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+}
+
+.mount__img {
+  width: 60%;
+}
+.mount__images {
+  display: flex;
+}
+
+.mount__canyon {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 0.55);
+  margin: 0 73px 32px;
+}
+
+.mount__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0 73px 150px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mount__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 74px;
+}
+
+/* .mount__button-text {
+} */
+
+.mount__button-price {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration-line: underline;
+  color: #3a442d;
+  margin: 18px 0 14px;
+}
+
+.mount__one {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.mount__right-btn {
+  margin: 0 0 10px 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+  cursor: pointer;
+  border: none;
+  background: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.mount__row {
+  display: flex;
+  align-items: center;
+  column-gap: 170px;
+}
+
+.mount__tur {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 119px 16px 163px;
+  color: rgba(0, 0, 0, 0.43);
+}
+.travel {
+  padding: 0 0 160px;
+}
+
+.travel__blog {
+  display: flex;
+  align-items: end;
+  margin-top: 48px;
+}
+
+.travel__top {
+  display: flex;
+  column-gap: 20px;
+}
+
+.travel__title {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(0, 0, 0, 0.58);
+}
+.travel__span {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.32);
+}
+
+.travel__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.43);
+}
+
+.travel__row {
+  margin: 0 -45px -40px;
+  width: 522px;
+  height: 351px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.travel__logo {
+  margin: 0px -68px 271px;
+}
+
+.travel__row-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 32px 30px 32px;
+  color: rgba(0, 0, 0, 0.58);
+}
+
+.travel__row-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 30px 54px;
+  color: rgba(0, 0, 0, 0.7);
+}
